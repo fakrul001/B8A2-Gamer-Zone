@@ -199,7 +199,7 @@ header {
 .instant-play-container {
   margin-top: 50px;
   padding: 0px 120px;
-  min-height: 500px;
+  min-height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -224,7 +224,7 @@ header {
 .instant-play-description {
   width: 50%;
   margin: auto;
-  text-align: right
+  text-align: right;
 }
 
 .instant-play-games{
@@ -240,7 +240,6 @@ header {
 .game-two{
   width: 250px;
   height: 200px;
-  border: 2px solid #fff;
   border-radius: 5px;
   position: relative;
   bottom: 100px;
