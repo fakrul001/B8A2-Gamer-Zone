@@ -3,19 +3,22 @@
 /* mobile devices */
 @media screen and (max-width: 425px) {
     
-    /* header style starts */
+    /* shared styles */
     .nav-container,
     .nav-items-list, 
     .nav-items-1,
-    .banner-container
+    .online-games-gallery,
+    .instant-play-container
     {
         flex-direction: column;
-        align-items: center;
     }
+
+    /* header style starts */
     .nav-items-1{
         margin-top: 10px;
         margin-bottom: 10px;
     }
+
     .nav-items-1 li:nth-child(1){
         margin-bottom: 20px;
     }
@@ -23,35 +26,89 @@
 
     /* banner style starts */
     .banner-container{
-        margin-top: 50px;
-        padding: 50px 50px;
+        padding: 0px 50px;
+        flex-direction: column-reverse;
+        background-position: top left;
         gap: 0;
     }
+
+    .banner-introduction{
+        padding-top: 30px;
+    }
+
     .banner-img{
         width: 100%;
+        padding-top: 50px;
     }
+
     .banner-img img{
         width: 100%;
     }
+
     .banner-content{
         margin-bottom: 40px;
     }
     /* banner style starts */
+
+
+    /* online games style starts */
+    .online-games-container{
+        padding: 0px 20px;
+    }
+    
+    .online-games-title{
+        font-size: 1.5rem;
+    }
+
+    .online-games-title span{
+        font-size: 1.5rem;
+    }
+
+    .games{
+        max-width: 70%;
+        margin-bottom: 30px;
+    }
+    /* online games style ends */
+
+
+    /* instant play style starts */
+    .game-two
+
+
+
+
+
+
+
+
+    /* instant play style ends */
 }
+
+
+
+
+
+
+
+
 
 
 /* Tablet or Medium Devices */
 @media screen and (min-width: 425px) and (max-width: 768px) {
     
-    /* header style starts */
+    /* shared styles */
     .nav-container,
-    .nav-items-list
+    .nav-items-list,
+    .online-games-gallery
     {
         flex-direction: column;
     }
+
+    /* header style starts */
     .nav-content{
         margin-bottom: 30px;
     }
+
     .nav-items-2{
         margin-top: 30px;
     }
@@ -63,7 +120,13 @@
         padding: 0px 50px;
         gap: 0;
     }
-     /* banner style starts */
+    /* banner style ends */
 
-    
+ 
+    /* online games style starts */
+    .games{
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    /* online games style ends */
 }

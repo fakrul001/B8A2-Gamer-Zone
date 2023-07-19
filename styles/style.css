@@ -12,13 +12,28 @@ body {
   font-family: "Work Sans", sans-serif;
 }
 
-.btn-primary{
-    font-weight: 600;
-    border: none;
-    background-color: #FF42A5;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 30px;
+.btn-primary {
+  font-weight: 600;
+  border: none;
+  background-color: #ff42a5;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+
+.colored-title {
+  font-size: 4rem;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(243, 52, 84),
+    rgb(98, 10, 150)
+  );
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+.description-color {
+  color: #534c64;
 }
 
 /* header style starts */
@@ -61,6 +76,7 @@ header {
 
 .nav-items-1 {
   display: flex;
+  align-items: center;
 }
 
 .nav-items-1 li {
@@ -84,51 +100,151 @@ header {
 /* header style ends */
 
 /* banner style starts */
-.banner-container{
-    padding: 0px 120px;
-    min-height: 600px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 100px;
+.banner-container {
+  padding: 0px 120px;
+  min-height: 600px;
+  background-image: url("../images/Group 14.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: top left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
 }
 
-.banner-introduction{
-    font-size: 2rem;
-    font-weight: 600;
+.banner-introduction {
+  font-size: 2rem;
+  font-weight: 600;
 }
 
-.banner-title{
-    font-size: 4rem;
-    background-image: linear-gradient(to bottom, rgb(243, 52, 84), rgb(98, 10, 150));
-    color: transparent;
-    -webkit-background-clip: text;
+.banner-description {
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
-.banner-description{
-    margin-top: 10px;
-    margin-bottom: 20px;
+.banner-description p:nth-child(2) {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.banner-description p:nth-child(2){
-    margin-top: 10px;
-    margin-bottom: 10px;
+.btn-blue {
+  font-weight: 600;
+  border: none;
+  background-color: #4ec5f7;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 30px;
 }
 
-.btn-blue{
-        font-weight: 600;
-        border: none;
-        background-color: #4EC5F7;
-        color: #fff;
-        padding: 10px 20px;
-        border-radius: 30px;
+.banner-img {
+  width: 50%;
 }
 
-.banner-img{
-    width: 50%;
+.banner-img img {
+  width: 100%;
+}
+/* banner style ends */
+
+/* online games style starts  */
+.online-games-container {
+  margin-top: 50px;
+  padding: 0px 120px;
 }
 
-.banner-img img{
-    width: 100%;
+.online-games-content {
+  text-align: center;
+  margin-bottom: 40px;
 }
+
+.online-games-title {
+  color: #0b0223;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+
+.online-games-title span {
+  font-size: 2rem;
+}
+
+.online-games-description {
+  font-size: 1.2rem;
+}
+
+.online-games-gallery {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.games {
+  max-width: 30%;
+  margin-right: 20px;
+}
+
+.games img {
+  width: 100%;
+}
+
+.game-title {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+}
+/* online games styles ends */
+
+/* Instant play style starts */
+.instant-play-container {
+  margin-top: 50px;
+  padding: 0px 120px;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.instant-play-content {
+  width: 50%;
+}
+
+.instant-play-title {
+  width: 50%;
+  margin: auto;
+  text-align: right;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.instant-play-title span {
+  font-size: 2rem;
+}
+
+.instant-play-description {
+  width: 50%;
+  margin: auto;
+  text-align: right
+}
+
+.instant-play-games{
+  display: flex;
+  flex-direction: column;
+}
+
+.game-one{
+  width: 100%;
+  padding-top: 50px;
+}
+
+.game-two{
+  width: 250px;
+  height: 200px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  position: relative;
+  bottom: 100px;
+  right: 125px;
+}
+/* Instant play style ends */
 
