@@ -8,7 +8,9 @@
     .nav-items-list, 
     .nav-items-1,
     .online-games-gallery,
-    .instant-play-info
+    .instant-play-info,
+    .our-info,
+    .rules
     {
         flex-direction: column;
     }
@@ -109,19 +111,35 @@
     }
     .game-row-1{
         width: 30px;
-
         margin: auto;
     }
     /* various games style ends */
 
+    /* footer style starts */
+    .info-1 p, .info-2 p{
+        font-size: 1rem;
+        margin-right: 20px;
+    }
+
+    .info-2 p{
+        margin-top: 30px;
+    }
+
+    .rules p{
+        font-size: 10px;
+        margin-right: 20px;
+    }
+
+    .rule-1{
+        margin-bottom: 10px;
+    }
+
+    small{
+        font-size: 10px;
+    }
+    /* footer style ends */
+
 }
-
-
-
-
-
-
-
 
 
 
@@ -248,9 +266,9 @@
     /* instant play style ends */
 
 
-    /* various games style starts */
-
-
-
-    /* various games style starts */
+    /* footer style starts */
+    .info-1 p, .info-2 p{
+        font-size: 1rem;
+    }
+    /* footer style ends */
 }

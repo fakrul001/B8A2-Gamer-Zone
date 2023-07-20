@@ -281,9 +281,87 @@ header {
 .game-description-1{
   font-size: 12px;
 }
-
 /* various games style ends */
 
 
-
 /* footer style starts */
+footer{
+  background-color: #0b0223;
+}
+
+.footer-logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.footer-logo img{
+  width: 50px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.footer-title{
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+.footer-title span{
+  color: #ff42a5;
+}
+
+.info-1, .info-2, .rule-1, .rule-2{
+  display: flex;
+  justify-content: center;
+}
+
+.info-1 p, .info-2 p{
+  margin-right: 40px;
+  font-size: 1.25rem;
+}
+
+.our-info{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.our-info p{
+  color: #fff;
+}
+
+.social-links li .fa-brands{
+  color: #fff;
+}
+
+.social-links li a > i{
+  width: 50px;
+}
+
+.social-links li {
+  list-style: none;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.rules{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.rules p{
+  margin-right: 40px;
+  font-size: 1rem;
+  color: #fff;
+}
+
+small{
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+/* footer style ends */
