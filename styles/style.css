@@ -363,5 +363,6 @@ small{
   color: #fff;
   display: flex;
   justify-content: center;
+  padding-bottom: 30px;
 }
 /* footer style ends */
