@@ -331,12 +331,17 @@ footer{
   color: #fff;
 }
 
+.social-links li{
+  list-style: none;
+}
+
 .social-links li .fa-brands{
   color: #fff;
 }
 
 .social-links li a > i{
   width: 50px;
+  
 }
 
 .social-links li {
