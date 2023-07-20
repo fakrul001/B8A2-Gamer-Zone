@@ -12,6 +12,11 @@ body {
   font-family: "Work Sans", sans-serif;
 }
 
+.container{
+  width: 1180px;
+  margin: 0 auto;
+}
+
 .btn-primary {
   font-weight: 600;
   border: none;
@@ -22,7 +27,7 @@ body {
 }
 
 .colored-title {
-  font-size: 4rem;
+  font-size: 5rem;
   background-image: linear-gradient(
     to bottom,
     rgb(243, 52, 84),
@@ -37,13 +42,14 @@ body {
 }
 
 /* header style starts */
+
 header {
   background-color: #fff;
   box-shadow: 0px 5px 10px rgba(128, 128, 128, 0.164);
 }
 
 .nav-container {
-  padding: 38px 120px;
+  padding: 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -77,6 +83,8 @@ header {
 .nav-items-1 {
   display: flex;
   align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .nav-items-1 li {
@@ -97,59 +105,62 @@ header {
   height: 15px;
   margin-left: 10px;
 }
+
 /* header style ends */
 
 /* banner style starts */
-.banner-container {
-  padding: 0px 120px;
+.banner-container{
+  width: 100%;
   min-height: 600px;
-  background-image: url("../images/Group 14.png");
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position: top left;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  gap: 100px;
+  gap: 50px;
 }
 
-.banner-introduction {
+.banner-introduction{
   font-size: 2rem;
   font-weight: 600;
 }
 
-.banner-description {
-  margin-top: 10px;
-  margin-bottom: 20px;
+.banner-info{
+  width: 50%;
+  background-image: url('../images/Group 14.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
 }
 
-.banner-description p:nth-child(2) {
+.banner-content{
+  width: 50%;
+  margin-left: 120px;
+}
+
+.banner-img img{
+  width: 82%;
+  height: 100%;
+}
+
+.banner-description{
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.banner-description p:nth-child(2){
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-.btn-blue {
-  font-weight: 600;
-  border: none;
-  background-color: #4ec5f7;
-  color: #fff;
-  padding: 10px 20px;
-  border-radius: 30px;
-}
-
-.banner-img {
-  width: 50%;
-}
-
-.banner-img img {
-  width: 100%;
+.btn-blue{
+  background-color: #4EC5F7;
 }
 /* banner style ends */
 
 /* online games style starts  */
 .online-games-container {
+  width: 100%;
   margin-top: 50px;
-  padding: 0px 120px;
+  margin-bottom: 30px;
 }
 
 .online-games-content {
@@ -172,78 +183,107 @@ header {
   font-size: 1.2rem;
 }
 
-.online-games-gallery {
+.online-games-gallery{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-}
-
-.games {
-  max-width: 30%;
-  margin-right: 20px;
-}
-
-.games img {
-  width: 100%;
-}
-
-.game-title {
-  margin-top: 10px;
   text-align: center;
-  font-size: 1rem;
-  font-weight: 500;
+  margin: 0 120px;
+}
+
+.games > img{
+  width: 260px;
 }
 /* online games styles ends */
 
 /* Instant play style starts */
-.instant-play-container {
-  margin-top: 50px;
-  padding: 0px 120px;
-  min-height: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.instant-play-container{
+  margin-top: 70px;
 }
 
-.instant-play-content {
-  width: 50%;
-}
-
-.instant-play-title {
-  width: 50%;
-  margin: auto;
-  text-align: right;
-  font-size: 2rem;
-  font-weight: 700;
-}
-
-.instant-play-title span {
-  font-size: 2rem;
-}
-
-.instant-play-description {
-  width: 50%;
-  margin: auto;
-  text-align: right;
-}
-
-.instant-play-games{
-  display: flex;
-  flex-direction: column;
-}
-
-.game-one{
+.instant-play-info{
   width: 100%;
-  padding-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 100px;
 }
 
-.game-two{
+.instant-play-content{
+  width: 40%;
+  text-align: end;
+}
+
+.instant-play-title{
+  font-size: 2.5rem;
+}
+
+.instant-play-title span{
+  font-size: 3rem;
+}
+
+.instant-play-description{
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.instant-game-one img{
+  padding-top: 30px;
+  width: 500px;
+  height: 700px;
+}
+
+.instant-game-two img{
   width: 250px;
   height: 200px;
-  border-radius: 5px;
   position: relative;
-  bottom: 100px;
-  right: 125px;
+  bottom: 125px;
+  right: 100px;
 }
 /* Instant play style ends */
 
+
+/* various games style starts */
+.various-games-container{
+  min-height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.row-1{
+  flex-basis: 200px;
+  margin-bottom: 20px;
+}
+
+.game-row-1{
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid transparent;
+  margin-right: 5px;
+  padding-top: 5px;
+}
+
+.game-row-1:hover{
+  border: 1px solid #ff42a5;
+  color: #ff42a5;
+  border-radius: 40px;
+  padding-top: 5px;
+}
+
+.game-row-1 img{
+  margin-right: 10px;
+}
+
+.game-description-1{
+  font-size: 12px;
+}
+
+/* various games style ends */
+
+
+
+/* footer style starts */
